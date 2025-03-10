@@ -1,0 +1,31 @@
+// responsive
+@mixin lg-screen() {
+  @media screen and (max-width: 1920px) {
+    @content;
+  }
+}
+
+@mixin md-screen() {
+  @media screen and (max-width: 1366px) {
+    @content;
+  }
+}
+
+@mixin sm-screen() {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin xs-screen() {
+  @media screen and (max-width: 390px) {
+    @content;
+  }
+}
+
+@mixin custom-screen($weight) {
+  @media screen and (max-width: $weight) {
+    @content;
+  }
+}
+

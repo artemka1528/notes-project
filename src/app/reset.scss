@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* padding и border включаются в ширину и высоту */
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+details,
+summary {
+  list-style: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+iframe {
+  border: none;
+}
+
+pre,
+code {
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+figure {
+  margin: 0;
+}
+
+audio,
+video {
+  display: inline-block;
+}
+
+canvas {
+  display: block;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  resize: vertical;
+}
+
+details > summary {
+  cursor: pointer;
+}
+
+dialog {
+  padding: 0;
+  border: none;
+}
+
+meter {
+  vertical-align: baseline;
+}
+
+template {
+  display: none;
+}
